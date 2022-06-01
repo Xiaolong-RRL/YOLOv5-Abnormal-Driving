@@ -11,7 +11,7 @@
 
 <img src="改进算法整体框架.png" width="80%" align=left />
 
-&nbsp;
+</details>
 - 引入轻量化卷积Ghostconv，大大降低了模型参数量；
 - 引入BiFPN，并充分利用中小型目标检测层；
 - 引入CA注意力机制，使得模型对目标框的定位更精确；
