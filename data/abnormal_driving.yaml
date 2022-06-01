@@ -1,0 +1,12 @@
+# Example usage: python train.py --data abnormal_driving.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── abnormal_driving  ← downloads here
+train: ../datasets/abnormal_driving/train.txt
+val: ../datasets/abnormal_driving/val.txt
+
+# Classes
+nc: 4  # number of classes
+# names: ['yawn', 'drink', 'phone','look_at_the_phone']  # class names
+names: ['打哈欠', '喝饮品', '打电话','看手机']  # Chinese names
